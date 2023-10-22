@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url(https://t4.ftcdn.net/jpg/04/97/80/99/360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg) ;
+/* background-position: center;
+background-size: cover; */
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="submit"]{
+  padding: 15px 30px;
+  background: #96a2ed;
+  border: #2773be;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #67659c;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.card{
+  width: 40%;
+  background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+  height: 60vh;
+  margin: 50px auto;
+  /* display: flex;
+  justify-content: center ;
+  align-items: center; */
+  /* padding-top: 2em; */
+  border-radius: 2px;
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding-top: 15px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.card p{
+  
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+}
+#main div {
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+}
+
+
